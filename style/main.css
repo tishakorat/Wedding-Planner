@@ -1,0 +1,517 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.img1{
+    /* height: 230px; */
+    /* width: 230px; */
+    /* border-radius: 50%; */
+    /* margin: 13px; */
+    transition: 1s ease;
+}
+.img1:hover{
+    -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+.img2{
+    /* height: 290px; */
+    /* width: 290px; */
+    /* margin: 15px; */
+    transition: 1s ease;
+    /* margin-top: 550px; */
+}
+.img2:hover{
+    border-radius:50%;
+    transition: 1s ease;
+}
+.figure {
+    position: relative;
+    /* width: 360px;  */
+    /* max-width: 100%; */
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+.im1{
+    align-self: flex-end;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.example:hover{
+    animation-name: example;
+    animation-timing-function: ease;
+}
+@keyframes example {
+    0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+  }
+.font1 { background-image: linear-gradient(
+    to right,
+    #aac3d6,
+    #aac3d6 50%,
+    #000 50%
+  );
+    font-weight: 800;
+    text-align: center;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.font1:before{
+    content: '';
+    background: #aac3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .font1:hover {
+   background-position: 0;
+  }
+  
+  .font1:hover::before{
+    width: 100%;
+  } 
+.courgette-regular {
+    font-family: "Courgette";
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 40px; */
+}
+
+.faustina {
+    font-family: "Faustina";
+    letter-spacing: 2px;
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+.faustina-text {
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+
+.color {
+    color: #6b8985;
+}
+
+.flex {
+    display: flex;
+}
+/* .box{
+    height: 50px;
+    width: 150px;
+} */
+.padding {
+    padding-left: 130px;
+}
+
+.p-t {
+    padding-top: 100px;
+}
+
+.bg {
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+
+}
+
+.bg1 {
+    background-image: url(../image/i1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg2 {
+    background-image: url(../image/row-bgimage-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.3; */
+    /* align-content: center; */
+}
+
+.bg3 {
+    background-image: url(../image/Untitled-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bg4 {
+    background-image: url(../image/p6-title-img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .bg5 {
+    background-image: url(../image/invitation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} */
+
+.bg6{
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.bg7{
+    background-image: url(../image/slide-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+.b1{
+    height: auto;
+    width: auto;
+}
+.bin{
+    height: 950px;
+    width: auto;
+    border: 20px solid #cde0ef;
+}
+.v {
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.c {
+    text-align: center;
+}
+
+/* .img{
+    height: 400px !important ;
+    width: 350px !important;
+} */
+.box {
+    height: auto;
+    width: 500px;
+    padding-bottom: 1%;
+    border-bottom-left-radius: 650px !important;
+    border-top-left-radius: 800px !important;
+    border-top-right-radius: 800px !important;
+}
+
+.box-img {
+    height: 300px;
+    width: 250px;
+
+    margin-top: 8%;
+    border-bottom-left-radius: 900px !important;
+    border-top-left-radius: 1000px !important;
+    border-top-right-radius: 1000px !important;
+}
+
+.bo {
+    border-right: 1px solid black;
+}
+.box1{
+    height: 50px;
+    width: 450px;
+    border-bottom-left-radius: 650px !important;
+    border-top-left-radius: 800px !important;
+    border-top-right-radius: 800px !important;
+}
+.round{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #6b8985;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.pointer {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: #6b8985;
+    color: white;
+  }
+  .pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #6b8985;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+    
+.b {
+    /* width: 100px; */
+    margin: auto;
+    /* margin-right: auto; */
+}
+
+
+
+
+/* nav code........................ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+ul {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    /* transform: translate(-50%, -460%); */
+    display: flex;
+
+    li {
+        list-style: none;
+
+        a {
+            position: relative;
+            display: block;
+            text-transform: uppercase;
+            margin: 10px 0;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #262626;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            transition: .5s;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-top: 2px solid #6b8985;
+                border-bottom: 2px solid #6b8985;
+                transform: scaleY(2);
+                opacity: 0;
+                transition: .3s;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 2px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #6b8985;
+                transform: scale(0);
+                opacity: 0;
+                transition: .3s;
+                z-index: -1;
+            }
+
+            &:hover {
+                color: #fff !important;
+
+                &:before {
+                    transform: scaleY(1);
+                    opacity: 1;
+                }
+
+                &:after {
+                    transform: scaleY(1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+.clr:hover {
+    background-color: #4A6360 !important;
+    color: white !important;
+}
+.clr {
+    background-color: #cde0ef !important;
+    /* color: white !important; */
+}
+
+.button {
+    background-color: #ccb9a7;
+}
+
+.button:hover {
+    background-color: #C9D5AF;
+}
+
+.button1 {
+    background-color: #ccb9a7;
+}
+
+.button1:hover {
+    background-color: #E6E6FA;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+}
+
+.slider .slide:nth-child(1) {
+    background-image: url(../image/slide1.jpeg);
+    animation-delay: -0;
+}
+
+.slider .slide:nth-child(2) {
+    background-image: url(../image/slide-2.jpg);
+    animation-delay: -2s;
+}
+
+.slider .slide:nth-child(3) {
+    background-image: url(../image/slide-3.jpg);
+    animation-delay: -4s;
+}
+
+.slider .slide:nth-child(4) {
+    background-image: url(../image/slide-4.jpg);
+    animation-delay: -6s;
+}
+
+.slider .slide:nth-child(5) {
+    background-image: url(../image/slide-5.jpg);
+    animation-delay: -8s;
+}
+
+@keyframes slide {
+
+    0%,
+    15%,
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease;
+    }
+
+    20% {
+        transform: translateX(-100%);
+        animation-timing-function: step-end;
+    }
+
+    95% {
+        transform: translateX(100%);
+        animation-timing-function: ease;
+    }
+}
+
+
+
+
+.hero {
+    /* position: relative; */
+    background: url('../image/invitation.png') center/cover;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        width: 100%; 
+        height: 600px; 
+      }
+}
+   
+@media screen and (max-width:375px) {
+    .hero {
+        width: 100%; 
+        height: 500px; 
+      }
+}
+@media screen and (max-width:425px){
+    .hero {
+      width: 100%; 
+      height: 450px; 
+    }
+   }
+   @media screen and (max-width:1024px) {
+    .slider{
+        width: 100%;
+    }
+   }

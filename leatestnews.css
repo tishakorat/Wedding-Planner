@@ -1,0 +1,200 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+ul {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    /* transform: translate(-50%, -460%); */
+    display: flex;
+
+    li {
+        list-style: none;
+
+        a {
+            position: relative;
+            display: block;
+            text-transform: uppercase;
+            margin: 10px 0;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #262626;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            transition: .5s;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-top: 2px solid #6b8985;
+                border-bottom: 2px solid #6b8985;
+                transform: scaleY(2);
+                opacity: 0;
+                transition: .3s;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 2px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #6b8985;
+                transform: scale(0);
+                opacity: 0;
+                transition: .3s;
+                z-index: -1;
+            }
+
+            &:hover {
+                color: #fff !important;
+
+                &:before {
+                    transform: scaleY(1);
+                    opacity: 1;
+                }
+
+                &:after {
+                    transform: scaleY(1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.courgette-regular {
+    font-family: "Courgette";
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 40px; */
+}
+.faustina-text {
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+.faustina-text1 {
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 19px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+
+.img {
+    width: 95%;
+}
+
+.ronud {
+    border: 7px solid hsl(0, 4%, 90%);
+    border-radius: 50%;
+    width: 3px;
+
+}
+
+.ronud1 {
+    border: 3px solid hsl(33 55 72);
+    border-radius: 50%;
+    width: 3px;
+    margin: 2px 2px 5px 2px;
+    display: flex;
+}
+
+.ronud2 {
+    /* background-color: hsl(33 55 72); */
+    height: 30px;
+    width: 30px;
+    padding-top: 9px;
+    text-align: center !important;
+}
+
+
+.card {
+
+    background-color:  #cde0ef;
+    margin: 100px 0px 20px 0px;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+/* .text {
+    margin: 30px 0px 10px 10px;
+}
+
+.text:hover {
+    color: hsl(20, 30%, 69%);
+} */
+
+.ptext {
+    margin: 35px 0px 0px 11px;
+    font-size: medium;
+
+}
+
+.ctext {
+    font-size: 11px;
+    margin: 7px 0px 0px 11px;
+    color: rgb(176, 176, 176);
+
+}
+
+/* .text1{
+    font-size: 16px;   
+} */
+
+
+.border1 {
+    border: 3px solid #4A6360;
+    border-radius: 20px;
+    margin: 5PX 10px 0px 30px;
+}
+
+.border2 {
+    border: 3px solid #cde0ef;
+    border-radius: 20px;
+    margin: 5PX 0px 0px 0px;
+}
+
+.img1 {
+    width: 100%;
+}
+.img2{
+    width: 115%;
+}
+.box{
+    background-color: #cde0ef !important;
+    color: black !important; 
+}
+
+.box:hover {
+    background-color:  #4A6360 !important;
+    color: white !important;
+}
+.clr:hover {
+    background-color: #4A6360 !important;
+    color: white !important;
+}
+.clr {
+    background-color: #cde0ef !important;
+    color: black !important;
+}
+.r1{
+    color: #4A6360 !important; 
+}
+.r2{
+   color: #cde0ef !important;  
+}

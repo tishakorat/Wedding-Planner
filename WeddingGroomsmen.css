@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-color: #CBB8A7;
+}
+.bg{
+    background-image: url(./image/b&g.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.sub-head{
+  font-family: "Faustina", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.header-font{
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.courgette-regular {
+    font-family: "Courgette";
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 40px; */
+}
+
+.faustina {
+    font-family: "Faustina";
+    letter-spacing: 2px;
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+.faustina-text {
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+.head{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.para{
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+.font-xx-large{
+    font-size: xx-large;
+}
+.wapper{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.wapper img{
+    cursor: pointer;
+    border-radius:50%!important
+}
+.wapper img:hover{
+    transform: scale(1.1);
+    border-radius: 100%!important
+}
+.m-center{
+    margin-top: 100px;
+}
+.rounded-shape{
+    border-radius:100%!important
+}

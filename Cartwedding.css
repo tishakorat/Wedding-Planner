@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.colr:hover {
+    background-color: #4A6360 !important;
+    color: white !important;
+}
+.colr {
+    background-color: #cde0ef !important;
+    /* color: white !important; */
+}
+.bg{
+    background-image: url(./image/bill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+.head{
+    font-family: "Courgette";
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 40px; */
+}
+.sub-head{
+    font-family: "Faustina";
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+}
+.courgette-regular {
+    font-family: "Courgette";
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 40px; */
+}
+
+.faustina {
+    font-family: "Faustina";
+    letter-spacing: 2px;
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+.faustina-text {
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+.para{
+    font-family: "Faustina";
+    letter-spacing: 1px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+.middle-font{
+    font-family: "Oregano", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+.header-font{
+    font-family: "Courgette", cursive;
+      font-weight: 400;
+      font-style: normal;
+}
+.box{
+    padding: 50px;
+    /* box-shadow: 0 0 6.1px 3.9px rgba(28,31,86,.04); */
+}
+
+.padd{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
