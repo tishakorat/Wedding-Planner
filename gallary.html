@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gallary</title>
+    <title>Wedding Planner</title>
+  <link rel="icon" type="image/x-icon" href="image/favicon.png">
     <link rel="stylesheet" href="gallary.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="media/media.css">
@@ -12,14 +13,14 @@
 </head>
 
 <body>
-  <section>
+  <section class="">
     <div class="container-fluid fixed-top bg-white">
       <div class="row">
 
         <nav class="navbar fixed-top  sticky-top navbar-expand-lg  bsb-navbar bsb-navbar-hover bsb-navbar-caret sticky-lg-top ">
-          <div class="container">
+          <div class="container-fluid" >
             <a class="navbar-brand mx-0" href="index.html">
-              <img src="image/logo.png" alt="BootstrapBrain Logo" width="150" height="60">
+              <img src="image/logo.png" alt="BootstrapBrain Logo" width="150" height="60" class="">
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -29,80 +30,83 @@
                   d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
               </svg>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
               aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header ">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <h5 class="offcanvas-title courgette-regular " id="offcanvasNavbarLabel">Menu</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body ">
-                <ul class="navbar-nav justify-content-center flex-grow-1 topnav">
+              <div class="offcanvas-body d p2" >
+                <ul class="navbar-nav justify-content-center flex-grow-1 topnav  pt-3 pt-lg-0">
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold " href="#!" id="accountDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="accountDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn " aria-labelledby="accountDropdown">
-                      <li><a class="dropdown-item" href="./index.html">Main Home</a></li>
-                      <li><a class="dropdown-item" href="./accomodation.html">Accomodation</a></li>
-                      <li><a class="dropdown-item" href="./invitation.html">Invitation</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./index.html">Main Home</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./accomodation.html">Accomodation</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./invitation.html">Invitation</a></li> 
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./rsvp.html">Rsvp</a></li>
                      
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./about.html">About</a></li>
-                      <li><a class="dropdown-item" href="./gallary.html">Gallery</a></li>
-                      <li><a class="dropdown-item" href="./portfolio.html">Porthfolio</a></li>
-                      <li><a class="dropdown-item" href="./rsvp.html">Rsvp</a></li>
-                      <li><a class="dropdown-item" href="./food.html">Food</a></li>
-                      <li><a class="dropdown-item" href="./bookey.html">Bokey</a></li>
-                      <li><a class="dropdown-item" href="./decoration.html">Decoration</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./about.html">About</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./gallary.html">Gallery</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./candles.html">Candles</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./hotels.html">Hotels</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./food.html">Food</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./bookey.html">Bouquets</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./decoration.html">Decoration</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./Shopwedding.html">Shop</a></li>
-                      <li><a class="dropdown-item" href="./Cartwedding.html">Cart</a></li>
-                      <li><a class="dropdown-item" href="./Checkout.html">Checkout</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./Shopwedding.html">Shop</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./Cartwedding.html">Cart</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./Checkout.html">Checkout</a></li>
                       
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Service</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./service.html">Service</a></li>
-                      <li><a class="dropdown-item" href="./Wedding Registry.html">Wedding registry</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./service.html">Service</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./Wedding Registry.html">Wedding registry</a></li>
                      
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./Leatestnews.html">Latestnews</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./Leatestnews.html">Latestnews</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./portfolio.html">Porthfolio</a></li>
+                      
                       
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Team</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./OurPlannerwedding.html">Our Planners</a></li>
-                      <li><a class="dropdown-item" href="./WeddingGroomsmen.html">Groom'smaid</a></li>
-                      <li><a class="dropdown-item" href="./WeddingBridesmaids.html">Bride'smaid</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./OurPlannerwedding.html">Our Planners</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./WeddingGroomsmen.html">Groom'smaid</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./WeddingBridesmaids.html">Bride'smaid</a></li>
                      
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-hover mx-3 fw-bold" href="#!" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-hover mx-3 fw-bold courgette-regular fs-5" href="#!" id="servicesDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                      <li><a class="dropdown-item" href="./contact.html">Contact us</a></li>
+                      <li><a class="dropdown-item fs-6 faustina-text" href="./contact.html">Contact us</a></li>
                      
                     </ul>
                   </li>
@@ -115,7 +119,6 @@
       </div>
     </div>
   </section>
-
   
       <div class="container-fluid bg">
         <div class="row">
@@ -130,22 +133,22 @@
         <div class="container-fluid">
             <div class="row text-center justify-content-center">
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div class="">
+                  <div class="wapper">
                         <img src="img/01.jpg" alt="" class="img-fluid img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div class="">
+                    <div class="wapper">
                         <img src="img/02.jpg" alt="" class="img-fluid img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div class="">
+                    <div class="wapper">
                         <img src="img/03.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div class="">
+                    <div class="wapper">
                         <img src="img/04.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>
@@ -153,22 +156,22 @@
 
             <div class="row  text-center">
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div>
+                    <div class="wapper">
                         <img src="img/05.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div>
+                    <div class="wapper">
                         <img src="img/06.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div>
+                    <div class="wapper">
                         <img src="img/07.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>
                 <div class="col-lg-3  col-sm-6 col-12  mt-5">
-                    <div>
+                    <div class="wapper">
                         <img src="img/08.jpg" alt="" class="img-fluid  img">
                     </div>
                 </div>

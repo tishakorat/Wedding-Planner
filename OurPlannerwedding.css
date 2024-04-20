@@ -86,3 +86,125 @@
 .font-xx-large{
     font-size: xx-large;
 }
+.font1 { background-image: linear-gradient(
+    to right,
+    #aac3d6,
+    #aac3d6 50%,
+    #000 50%
+  );
+    font-weight: 800;
+    text-align: center;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.font1:before{
+    content: '';
+    background: #aac3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .font1:hover {
+   background-position: 0;
+  }
+  
+  .font1:hover::before{
+    width: 100%;
+  } 
+
+   a {
+    text-decoration: none !important;
+    display: inline-block;
+    color: black;
+}
+
+h2 a, .source a, #cubic button {
+    text-decoration: none;
+    color: #417378;
+}
+
+#cubic {
+    color: #cde0ef;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    padding: 0 10px;
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    -ms-perspective: 300px;
+    -o-perspective: 300px;
+    perspective: 280px;
+}
+
+#cubic button {
+    display: block;
+    background: #cde0ef;
+    padding: 15px 30px;
+    top: 0;
+    transition: .4s all ease;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    border: none; /* Remove default button border */
+}
+
+#cubic:hover button {
+    background: #cde0ef;
+    -webkit-transform: translate3d(0px, 0px, -60px) rotateX(90deg);
+    -moz-transform: translate3d(0px, 0px, -60px) rotateX(90deg);
+    -ms-transform: translate3d(0px, 0px, -60px) rotateX(90deg);
+    -o-transform: translate3d(0px, 0px, -60px) rotateX(90deg);
+    transform: translate3d(0px, 0px, -60px) rotateX(90deg);
+}
+
+#cubic button:after {
+    content: attr(title);
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .8s all ease;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: translate3d(0px, 100%, 0) rotateX(-90deg);
+    -moz-transform: translate3d(0px, 100%, 0) rotateX(-90deg);
+    -ms-transform: translate3d(0px, 100%, 0) rotateX(-90deg);
+    -o-transform: translate3d(0px, 100%, 0) rotateX(-90deg);
+    transform: translate3d(0px, 100%, 0) rotateX(-90deg);
+    border: none; /* Remove default button border */
+}
+
+#cubic:hover button:after {
+    background: #4A6360;
+    color: white;
+}
